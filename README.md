@@ -28,7 +28,7 @@ Ao oferecer uma plataforma digital para o registro e acompanhamento de animais d
 ## Membros do Grupo
 
 - [Bruno Machado de Araujo](https://github.com/araujocode)
-- Diana Paula Bergamo
-- Gabriel Vinícius Monteiro
-- João Victor Ferreira Talavera
-- William Mariano do Nascimento
+- [Diana Paula Bergamo](https://github.com/dibergamo)
+- [Gabriel Vinícius Monteiro](https://github.com/DevGMonteiro)
+- [João Victor Ferreira Talavera](https://github.com/JoaoTalavera)
+- [William Mariano do Nascimento](https://github.com/Williamnasci)
