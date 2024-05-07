@@ -1,10 +1,20 @@
-<app-menu></app-menu>
-<main>
+<main>   
     <section class="form-section">
-        <img ngSrc="./assets/logo-azul.svg" width="692" height="669" />
-
+        <h1>Dogspot</h1>
+        <h2> {{ loginTitle }}</h2>
+        <ng-content></ng-content>
+        <div class="btn-wrapper">
+            <button class="btn-primary">{{ primaryBtnTxt }}</button>
+            <div class="divider">
+                <div></div>
+                <span>ou</span>
+                <div></div>
+            </div>
+            <button class="btn-secondary">{{ secondaryBtnTxt }}</button>  
+        </div>
     </section>
+    
     <section class="logo-section">
-
+        <img ngSrc="./assets/png/logo-white.png" priority width="692" height="669" />        
     </section>
 </main>
