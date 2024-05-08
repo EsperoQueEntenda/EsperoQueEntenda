@@ -6,6 +6,10 @@ import jakarta.persistence.*;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name= "cachorro")
@@ -33,6 +37,33 @@ public class Cachorro {
 
     @Column(name = "vacinado")
     private boolean vacinado;
+
+    @Column(name = "porte")
+    private String porte;
+
+    @Column(name = "tipoSanguineo")
+    private String tipoSanguineo;
+
+    @Column(name = "adestrado")
+    private boolean adestrado;
+
+    @Column(name = "microchipado")
+    private boolean microchipado;
+
+    @Column(name = "castrado")
+    private boolean castrado;
+
+    @Column(name = "modoDeAquisicao")
+    private String modoDeAquisicao;
+
+    @Column(name = "vermifugado")
+    private String vermifugado;
+
+    @Column(name = "cor")
+    private String cor;
+
+    @Column(name = "cirurgias")
+    private List<Cachorro> cirurgias = new ArrayList<>();
 
     @ManyToOne
     @JsonIgnore
