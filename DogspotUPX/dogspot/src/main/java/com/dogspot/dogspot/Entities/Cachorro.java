@@ -1,6 +1,5 @@
 package com.dogspot.dogspot.Entities;
 
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.EqualsAndHashCode;
@@ -33,6 +32,12 @@ public class Cachorro {
 
     @Column(name = "vacinado")
     private boolean vacinado;
+
+    @Column(name = "origem")
+    private String origem;
+
+    @Column(name = "historico")
+    private String historico;
 
     @ManyToOne
     @JsonIgnore
